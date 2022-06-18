@@ -157,6 +157,7 @@ img {
   color: #2196f3;
 }
 
+
 .adress-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -540,8 +541,16 @@ img {
 
 /*-----FOOTER-----*/
 
-.footer {
+.footer-container{
   display: flex;
+  align-items: center;
+}
+
+.footer-box-right{
+  margin-left: 70px; 
+}
+
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -599,12 +608,6 @@ img {
   margin-bottom: 20px;
   color: #FFFFFF;
 
-}
-
-.footer-box-right{
-  width: 206px;
-  height: 80px;
-  margin-left: 70px; 
 }
 
 .footer-list-right{
